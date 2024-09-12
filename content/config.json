@@ -1,0 +1,56 @@
+{
+  "title": "Microreact and Data-Flo for Pathogen Genomics",
+  "url": "https://mrdftraining.netlify.app",
+  "subtitle": "A webinar series",
+  "copyright": "© All rights reserved.",
+  "googleAnalyticsId": "GTM-K4936SZ5",
+  "disqusShortname": "",
+  "postsLimit": 4,
+  "pathPrefix": "/",
+  "menu": [
+    {
+      "label": "Sessions",
+      "path": "/"
+    },
+    {
+      "label": "About this series",
+      "path": "/pages/about"
+    },
+    {
+      "label": "How to access",
+      "path": "/pages/access"
+    },
+    {
+      "label": "Register to attend",
+      "path": "/pages/register"
+    },
+    {
+      "label": "Further reading",
+      "path": "/pages/readings"
+    }        
+  ],
+  "author": {
+    "name": "Microreact and Data-Flo for Pathogen Genomics",
+    "photo": "/cgps-logo-icon-rgb.png",
+    "bio": "A webinar series",
+    "contacts": {
+      "rss": "",
+      "email": "",
+      "github": "",
+      "facebook": "#",
+      "telegram": "#",
+      "twitter": "#",
+      "linkedin": "#",
+      "instagram": "#",
+      "mastodon": "#",
+      "line": "",
+      "weibo": "",
+      "gitlab": "",
+      "medium": "",
+      "youtube": "",
+      "codepen": "",
+      "soundcloud": "",
+      "bluesky": ""
+    }
+  }
+}
