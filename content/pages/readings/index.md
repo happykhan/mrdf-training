@@ -4,4 +4,7 @@ template: "page"
 socialImage: "./notebook.jpg"
 ---
 
-Additional resources related to the topics covered in the webinar series will be posted here. Check back for updates.
+Refer to the following resources for additional information on Microreact and Data-Flo:
+
+- [Microreact Documentation](https://docs.microreact.org/)
+- [Data-Flo Documentation](https://data-flo.io/docs)

@@ -1,8 +1,8 @@
 import contacts from "./contacts";
 
 export default {
-  photo: "/cgps-logo-icon-rgb.png",
-  bio: "CGPS",
-  name: "Nabil-Fareed Alikhan",
+  photo: "/photo.jpg",
+  bio: "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  name: "John Doe",
   contacts,
 };

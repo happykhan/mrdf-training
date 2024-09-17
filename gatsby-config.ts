@@ -64,28 +64,28 @@ export default {
                 custom_elements: [{ "content:encoded": node.html }],
               })),
             query: `
-                {
-                  allMarkdownRemark(
-                    limit: 1000
-                    filter: {frontmatter: {template: {eq: "post"}, draft: {ne: true}}}
-                    sort: {frontmatter: {date: ASC}}
-                  ) {
-                    edges {
-                      node {
-                        html
-                        fields {
-                          slug
-                        }
-                        frontmatter {
-                          date
-                          title
-                          slug
-                          description
-                        }
+              {
+                allMarkdownRemark(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+                ) {
+                  edges {
+                    node {
+                      html
+                      fields {
+                        slug
+                      }
+                      frontmatter {
+                        date
+                        title
+                        slug
+                        description
                       }
                     }
                   }
                 }
+              }
             `,
             output: "/rss.xml",
             title: config.title,
